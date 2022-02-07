@@ -1,0 +1,31 @@
+/*
+Pour sBootstrap01.html
+ */
+/*
+Auteur : Charles MAUFROY
+ */
+
+body{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+header{
+    background-color: #a8cbff;
+}
+
+nav{
+    background-color: #c60;
+}
+
+main{
+    background-color: yellowgreen;
+}
+
+footer{
+    background-color: rgb(127,8,49);
+}
+
+.fondContainer{
+    background-color: #999;
+}
