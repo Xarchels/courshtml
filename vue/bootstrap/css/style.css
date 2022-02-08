@@ -1,5 +1,5 @@
 /*
-Pour sBootstrap01.html
+Pour sBootstrap.html
  */
 /*
 Auteur : Charles MAUFROY
@@ -28,4 +28,12 @@ footer{
 
 .fondContainer{
     background-color: #999;
+}
+
+.fondLogo{
+    background-color: #0bff00;
+}
+
+.fondBandeau{
+    background-color: #ff70ec;
 }

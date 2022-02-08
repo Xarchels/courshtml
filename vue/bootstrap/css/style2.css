@@ -1,0 +1,18 @@
+/*
+Pour sBootstrap05.html
+ */
+/*
+Auteur : Charles MAUFROY
+ */
+
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+footer{
+    background-color: #c60;
+    color: #fff;
+    text-align: center;
+}
