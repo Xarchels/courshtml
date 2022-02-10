@@ -1,0 +1,24 @@
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    float: left;
+    width: 200px;
+    height: 115px;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legende{
+    text-align: center;
+}
