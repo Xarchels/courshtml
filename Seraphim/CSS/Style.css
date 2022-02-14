@@ -1,0 +1,20 @@
+body{
+    background-image: url("../Images/wp1982754-candies-wallpapers.jpg");
+    background-size: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.Titre{
+    font-family: "Brush Script MT", cursive;
+    font-size: 100px;
+    color: #ff90f5;
+    position: center;
+    top: 150px;
+}
