@@ -1,20 +1,82 @@
+/*CSS général*/
+
 body{
     background-image: url("../Images/wp1982754-candies-wallpapers.jpg");
     background-size: 100%;
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 20px;
-    left: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .Titre{
     font-family: "Brush Script MT", cursive;
     font-size: 100px;
     color: #ff90f5;
-    position: center;
-    top: 150px;
+}
+
+.navig {
+    overflow: hidden;
+    padding: 0;
+    background-color: #f0f;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.block_menu {
+    float: left;
+}
+
+.block_menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+.block_menu a:hover {
+    background-color: #d0d;
+    text-decoration: none;
+    color: white;
+
+}
+
+.actif {
+    background-color: #e0e;
+}
+
+footer{
+    background-color: #707;
+    color: #fff;
+    padding: 1% 0;
+    display: block;
+    position: relative;
+}
+footer a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #fff
+}
+
+.bottom-buffer{
+    margin-bottom:20px;
+}
+
+
+/*Carousel*/
+
+.carousel{
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
