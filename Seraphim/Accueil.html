@@ -12,72 +12,86 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class = "row justify-content-center">
-        <div> <!-- class = "offset-md-2 col-md-1"-->
-            <img class="logo" src="Images/lollipop-logo-final.png" alt="Logo sucette">
-        </div>
-        <div> <!-- class = "col-md-9"-->
-            <h1 class="Titre">Gourmandise, Seraphin Parys</h1>
-        </div>
-    </header>
-    <nav class="row justify-content-center">
-        <ul class="navig">
-            <li class="block_menu"><a class="actif" href="#">Accueil</a></li>
-            <li class="block_menu"><a href="#">Nos produits</a></li>
-            <li class="block_menu"><a href="#">Notre histoire</a></li>
-            <li class="block_menu"><a href="#">Notre démarche</a></li>
-        </ul>
-    </nav>
-    <main class ="row bottom-buffer">
-        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="#"><img class="d-block w-100" src="Images/chocolats-de-noel-1567169-pxhere.com.jpg" alt="Première slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Lorem ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-                    </div>
+    <header>
+        <div class="container-fluid">
+            <div class="">
+                <div>
+                    <img class="logo" src="Images/lollipop-logo-final.png" alt="Logo sucette">
                 </div>
-                <div class="carousel-item">
-                    <a href="#"><img class="d-block w-100" src="Images/Bonbons-a-letal.jpg" alt="Seconde slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Lorem ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="#"><img class="d-block w-100" src="Images/503_1.jpg" alt="Troisième slide"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Lorem ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-                    </div>
+                <div>
+                    <h1 class="Titre ">Gourmandise<span class="d-none d-xl-inline-block">, Seraphin Parys</span></h1>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Précédent</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Suivant</span>
-            </a>
+        </div>
+    </header>
+    <main>
+        <div class="bottom-buffer">
+            <nav>
+                <div class="container">
+                    <div class="nav">
+                        <ul class="navig">
+                            <li class="block_menu"><a class="actif" href="#">Accueil</a></li>
+                            <li class="block_menu"><a href="#">Nos produits</a></li>
+                            <li class="block_menu"><a href="#">Notre histoire</a></li>
+                            <li class="block_menu"><a href="#">Notre démarche</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#"><img class="d-block w-100" src="Images/chocolats-de-noel-1567169-pxhere.com.jpg" alt="Première slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img class="d-block w-100" src="Images/Bonbons-a-letal.jpg" alt="Seconde slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img class="d-block w-100" src="Images/503_1.jpg" alt="Troisième slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Précédent</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Suivant</span>
+                </a>
+            </div>
         </div>
     </main>
-    <footer class = "row">
-        <div class="offset-md-4 col-md-2 offset-md-1">
-            <br>&copy; 2022 Seraphyn Parys
-        </div>
-        <div class="col-md-6">
-            <ul>
-                <li><a href="#">Mentions légales</a></li>
-                <li><a href="#">Nous contacter</a></li>
-                <li><a href="#">Plan du site</a></li>
-            </ul>
+    <footer>
+        <div class="container">
+            <div class = "">
+                <div class="">
+                    <br>&copy; 2022 Seraphyn Parys
+                </div>
+                <div class="">
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                        <li><a href="#">Plan du site</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
