@@ -32,14 +32,16 @@ main {
     width: 100%;
 }
 
-footer {
-    height: 8rem;
-    width: 100%;
-    background-color: #707;
+.navig {
+    overflow: hidden;
+    /*display: flex;*/
+    padding: 0;
+    background-color: #f0f;
 }
 
-footer .container {
-    height: 8rem;
+footer {
+    width: 100%;
+    background-color: #707;
 }
 
 footer .container div {
@@ -55,8 +57,8 @@ footer .container div div:nth-child(1)
     color: #fff;
 }
 footer .container div div:nth-child(2) li a {
-        text-decoration: none;
-        color: #ccc;
+    text-decoration: none;
+    color: #ccc;
 }
 footer .container div div:nth-child(2) li a:hover {
     text-decoration: none;
@@ -76,13 +78,6 @@ main .bottom-buffer nav .container {
     font-family: "Brush Script MT", cursive;
     font-size: 6.25em;
     color: #ff90f5;
-}
-
-.navig {
-    overflow: hidden;
-    display: flex;
-    padding: 0;
-    background-color: #f0f;
 }
 
 ul{
@@ -127,7 +122,7 @@ ul{
 
 .container-cadre{
     width: 100%;
-    height: 100%;
+    min-height: 550px;
     padding-top:10px;
     padding-bottom:10px;
     border: 3px solid #A0A0A0;
@@ -174,22 +169,67 @@ ul{
 
 @media (max-width: 576px) {
     .Titre{
-        font-size: 4em;
+        font-size: 3em;
     }
     header .container-fluid div div:nth-child(1) {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
+    }
+    .navig{
+
+        display: block;
+        width: 100%;
+    }
+
+    .block_menu a {
+        padding: 10px 50px;
+    }
+
+    .carousel{
+        height: 90%;
+        width: 90%;
+    }
+    footer .container div {
+        font-size: small;
+        grid-template-columns: 1fr 2fr;
     }
 }
 
 
-@media (min-width: 576px) and (max-width: 768px) {  }
+@media (min-width: 576px) and (max-width: 767.9px) {
+    .navig{
+        display: block;
+    }
 
+    .block_menu a {
+        padding: 20px 100px;
+    }
 
-@media (min-width: 768px) and (max-width: 992px) {  }
+    .carousel{
+        height: 80%;
+        width: 80%;
+    }
+}
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .navig {
+        display: flex;
+    }
 
-@media (min-width: 992px) and (max-width: 1200px) {  }
+    .carousel{
+        height: 80%;
+        width: 80%;
+    }
+}
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navig {
+        display: flex;
+    }
+}
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+    .navig {
+        display: flex;
+    }
+}
