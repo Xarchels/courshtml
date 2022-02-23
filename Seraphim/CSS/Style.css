@@ -28,7 +28,7 @@ header .container-fluid div div:nth-child(1) {
 }
 
 main {
-    min-height: calc(100vh - 9.375rem - 8rem);
+    min-height: calc(82.625vh);
     width: 100%;
 }
 
@@ -48,6 +48,7 @@ footer .container div {
     padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    white-space: nowrap;
 }
 
 footer .container div div:nth-child(1)
@@ -191,7 +192,18 @@ ul{
     }
     footer .container div {
         font-size: small;
-        grid-template-columns: 1fr 2fr;
+    }
+
+    .droite{
+        max-width: 100%;
+    }
+
+    .gauche{
+        max-width: 100%;
+    }
+
+    main {
+        min-height: calc(84vh);
     }
 }
 
@@ -208,6 +220,14 @@ ul{
     .carousel{
         height: 80%;
         width: 80%;
+    }
+
+    .droite{
+        max-width: 100%;
+    }
+
+    .gauche{
+        max-width: 100%;
     }
 }
 
